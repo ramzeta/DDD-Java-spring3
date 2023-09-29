@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/auth-gateway/auth-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-discovery-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-profiles-talent/ms-profiles-talent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-users/src/main/java" charset="UTF-8" />
+  </component>
+</project>
