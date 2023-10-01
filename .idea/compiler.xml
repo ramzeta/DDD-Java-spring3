@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ms-discovery-server" />
         <module name="ms-users" />
-        <module name="ms-profiles-talent" />
-        <module name="auth-gateway" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-gateway" target="17" />
+      <module name="ms-profiles-talent" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

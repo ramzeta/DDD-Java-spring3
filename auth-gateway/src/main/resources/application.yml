@@ -1,0 +1,22 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: ms-auth-gateway
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    gateway:
+      routes:
+        - id: ms-users
+          uri: lb://ms-users-route
+          predicates:
+            Path=/v1/users/**
+        - id: ms-profiles
+          uri: lb://ms-profiles-route
+          predicates:
+            Path=/v1/profiles/**
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

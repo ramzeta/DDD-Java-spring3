@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MsUsersApplication",
+            "request": "launch",
+            "mainClass": "com.byron.msusers.MsUsersApplication",
+            "projectName": "ms-users"
+        },
+        {
+            "type": "java",
+            "name": "MsProfilesTalentApplication",
+            "request": "launch",
+            "mainClass": "com.byron.msprofilestalent.MsProfilesTalentApplication",
+            "projectName": "ms-profiles-talent"
+        },
+        {
+            "type": "java",
+            "name": "MsDiscoveryServerApplication",
+            "request": "launch",
+            "mainClass": "com.byron.msdiscoveryserver.MsDiscoveryServerApplication",
+            "projectName": "ms-discovery-server"
+        },
+        {
+            "type": "java",
+            "name": "AuthGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.byron.authgateway.AuthGatewayApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthGatewayApplication<auth-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.byron.authgateway.AuthGatewayApplication",
+            "projectName": "auth-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
