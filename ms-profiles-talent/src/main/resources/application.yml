@@ -1,12 +1,12 @@
 server:
-  port: 8763
+  port: 8764
 spring:
   application:
-    name: ms-users
+    name: ms-profiles
   main:
     allow-bean-definition-overriding: true
   datasource:
-    url: jdbc:mysql://localhost:3307/users
+    url: jdbc:mysql://localhost:3307/profiles_talent
     username: root
     password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
